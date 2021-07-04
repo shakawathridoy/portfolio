@@ -1,6 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
 h1{
-    background-color: aquamarine;
-    color: black;
-    font-size: 40;
-    border: 2x solid green;
+    font-size: 40px;
+
+}
+p{
+    text-align: justify;
+}
+span{
+    color: orange;
+}
+.half-width{
+    width: 60%;
+    padding: 5%;
+}
+section{
+    display: flex;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: purple;
+    padding: 10px 40px ;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(orange white);
+}
+.banner{
+    background-image:url(developer-portfolio-master/images/top-banner.png);
+    background-repeat: no-repeat;
 }
