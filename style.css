@@ -16,7 +16,7 @@ span{
     width: 60%;
     padding: 5%;
 }
-section{
+.felexible-section{
     display: flex;
     margin-bottom: -5%;
 }
@@ -40,4 +40,36 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.orange-color{
+    color: orange;
+}
+.experiance-center{
+    background-image: url(developer-portfolio-master/images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 0%;
+}
+.dev-experience{
+    width: 60%;
+    padding: 4%;
+    margin-left: 5%;
+    margin-top: 0%;
+    margin-right: 6%;
+    margin-bottom: 10%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+#line-color{
+    border-left: 7px solid;
+    border-color:hotpink brown purple;
+    border-color:
+    border-image-slice: 1;
+}
+#line-color2{
+    border-left: 7px solid;
+    border-color:hotpink brown purple;
+    border-color:
+    border-image-slice: 1;
 }
